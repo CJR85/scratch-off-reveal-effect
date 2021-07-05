@@ -26,5 +26,19 @@
         </p>
       </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+    <script>
+      function setup() {
+        createCanvas(windowWidth, windowHeight);
+      }
+
+      function draw() {
+        strokeWeight(50);
+        if (mousePressed === true) {
+          line(mouseX, mouseY, pmouseX, pmouseY);
+        }
+      }
+    </script>
   </body>
 </html>
