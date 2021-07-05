@@ -39,4 +39,5 @@ canvas {
   z-index: 1;
   background: #fff;
   z-index: 2;
+  mix-blend-mode: screen;
 }
